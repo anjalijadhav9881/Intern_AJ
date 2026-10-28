@@ -1,0 +1,48 @@
+======================================================================
+TEST SUITE: Student Grade Calculator
+======================================================================
+
+Test Case 1: Boundary Check (Grade A)
+- Input Name: Alice
+- Input Marks: 95
+- Expected Output: Grade A, Message: "Outstanding! You crushed it! "
+- Status: PASSED
+
+Test Case 2: Boundary Check (Grade B)
+- Input Name: Priya
+- Input Marks: 85
+- Expected Output: Grade B, Message: "Very Good! Keep it up! "
+- Status: PASSED
+
+Test Case 3: Boundary Check (Grade C)
+- Input Name: Rohan
+- Input Marks: 72
+- Expected Output: Grade C, Message: "Good effort! Room for improvement. "
+- Status: PASSED
+
+Test Case 4: Boundary Check (Grade D)
+- Input Name: Sneha
+- Input Marks: 63
+- Expected Output: Grade D, Message: "Passed. Let's work harder next time! "
+- Status: PASSED
+
+Test Case 5: Boundary Check (Grade F)
+- Input Name: Rahul
+- Input Marks: 45
+- Expected Output: Grade F, Message: "Don't give up! Review the concepts and try again. "
+- Status: PASSED
+
+Test Case 6: Negative Number Error Handling
+- Input Marks: -5
+- Expected Output: " Invalid range! Marks must be between 0 and 100. Try again." (Re-prompts)
+- Status: PASSED
+
+Test Case 7: Over-boundary Error Handling
+- Input Marks: 105
+- Expected Output: " Invalid range! Marks must be between 0 and 100. Try again." (Re-prompts)
+- Status: PASSED
+
+Test Case 8: String/Text Error Handling
+- Input Marks: "abc"
+- Expected Output: " Invalid input! Please enter a numerical integer value." (Re-prompts)
+- Status: PASSED

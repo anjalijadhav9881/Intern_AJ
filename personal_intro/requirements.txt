@@ -1,0 +1,2 @@
+# Week 1: Python Basics - Personal Introduction Program
+# This project uses only Python Standard Library modules (no external dependencies required).
